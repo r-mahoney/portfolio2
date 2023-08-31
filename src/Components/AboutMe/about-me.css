@@ -26,7 +26,6 @@
     display: inline-flex;
     width: 1.5rem;
     height: 1.5rem;
-    background: white;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -39,6 +38,14 @@
 
 .slider > a:focus {
     background: rgba(0, 151, 19, 0.5);
+}
+
+.activeSliderA {
+    background: rgba(0, 151, 19, 0.3);
+}
+
+.inactiveSliderA {
+    background: white;
 }
 
 .slides::-webkit-scrollbar,

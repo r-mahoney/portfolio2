@@ -11,6 +11,10 @@ import { column1, column2 } from "./skills";
 import ListItems from "./ListItems";
 
 function AboutMe() {
+    const handleClick = (target) => {
+        document.querySelector(".activeSliderA").className = "inactiveSliderA";
+        target.className = "activeSliderA";
+    };
     useEffect(() => {
         document.documentElement.style.setProperty("--scroll-padding", "7rem");
     }, []);
@@ -64,9 +68,27 @@ function AboutMe() {
                     </Flex>
                     <Flex flex={2}>
                         <div className="slider">
-                            <a href="#Where-Ive-Been">1</a>
-                            <a href="#Where-Im-At">2</a>
-                            <a href="#Where-Im-Going">3</a>
+                            <a
+                                href="#Where-Ive-Been"
+                                className="activeSliderA"
+                                onClick={(e) => handleClick(e.target)}
+                            >
+                                1
+                            </a>
+                            <a
+                                href="#Where-Im-At"
+                                className="inactiveSliderA"
+                                onClick={(e) => handleClick(e.target)}
+                            >
+                                2
+                            </a>
+                            <a
+                                href="#Where-Im-Going"
+                                className="inactiveSliderA"
+                                onClick={(e) => handleClick(e.target)}
+                            >
+                                3
+                            </a>
                             <div className="slides">
                                 {slideObj.map((slide) => (
                                     <Slide
@@ -149,7 +171,7 @@ function AboutMe() {
                         justifyContent={"center"}
                     >
                         <SimpleGrid
-                            gap={{base: 2, md: 10}}
+                            gap={{ base: 2, md: 10 }}
                             columns={2}
                             justifyContent="center"
                             alignItems="flex-start"
