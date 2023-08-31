@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.fc96f7aa.css",
-    "main.js": "/portfolio2/static/js/main.2f30c842.js",
-    "static/media/propic.jpg": "/portfolio2/static/media/propic.fabf641c943736b786e8.jpg",
-    "static/media/reddit1.png": "/portfolio2/static/media/reddit1.af5db663e23053c3f4b6.png",
-    "static/media/housetown.jpg": "/portfolio2/static/media/housetown.5896933706e5b905c4cc.jpg",
-    "static/media/reddit2.png": "/portfolio2/static/media/reddit2.b312938568bd068248ae.png",
-    "static/media/reddit3.png": "/portfolio2/static/media/reddit3.f9db1d12165eaaf25e22.png",
-    "static/media/LcurlyBrace.png": "/portfolio2/static/media/LcurlyBrace.4769adee59a96ee95cba.png",
-    "static/media/curlyBrace.png": "/portfolio2/static/media/curlyBrace.6b3d7f23622ae860bfe4.png",
-    "static/media/res1.PNG": "/portfolio2/static/media/res1.b99fa59062b7a24c7457.PNG",
-    "static/media/res2.PNG": "/portfolio2/static/media/res2.125947599149b7650f6d.PNG",
-    "static/media/res3.PNG": "/portfolio2/static/media/res3.dd749ad018bc43d61126.PNG",
-    "static/media/res4.PNG": "/portfolio2/static/media/res4.7056253fdcbd61622c54.PNG",
-    "static/media/note1.png": "/portfolio2/static/media/note1.f5367ca5eac54eb07f9d.png",
-    "index.html": "/portfolio2/index.html",
-    "main.fc96f7aa.css.map": "/portfolio2/static/css/main.fc96f7aa.css.map",
-    "main.2f30c842.js.map": "/portfolio2/static/js/main.2f30c842.js.map"
+    "main.css": "/static/css/main.fc96f7aa.css",
+    "main.js": "/static/js/main.be63e16f.js",
+    "static/media/propic.jpg": "/static/media/propic.fabf641c943736b786e8.jpg",
+    "static/media/reddit1.png": "/static/media/reddit1.af5db663e23053c3f4b6.png",
+    "static/media/housetown.jpg": "/static/media/housetown.5896933706e5b905c4cc.jpg",
+    "static/media/reddit2.png": "/static/media/reddit2.b312938568bd068248ae.png",
+    "static/media/reddit3.png": "/static/media/reddit3.f9db1d12165eaaf25e22.png",
+    "static/media/LcurlyBrace.png": "/static/media/LcurlyBrace.4769adee59a96ee95cba.png",
+    "static/media/curlyBrace.png": "/static/media/curlyBrace.6b3d7f23622ae860bfe4.png",
+    "static/media/res1.PNG": "/static/media/res1.b99fa59062b7a24c7457.PNG",
+    "static/media/res2.PNG": "/static/media/res2.125947599149b7650f6d.PNG",
+    "static/media/res3.PNG": "/static/media/res3.dd749ad018bc43d61126.PNG",
+    "static/media/res4.PNG": "/static/media/res4.7056253fdcbd61622c54.PNG",
+    "static/media/note1.png": "/static/media/note1.f5367ca5eac54eb07f9d.png",
+    "index.html": "/index.html",
+    "main.fc96f7aa.css.map": "/static/css/main.fc96f7aa.css.map",
+    "main.be63e16f.js.map": "/static/js/main.be63e16f.js.map"
   },
   "entrypoints": [
     "static/css/main.fc96f7aa.css",
-    "static/js/main.2f30c842.js"
+    "static/js/main.be63e16f.js"
   ]
 }
