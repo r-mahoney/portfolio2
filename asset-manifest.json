@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc96f7aa.css",
-    "main.js": "/static/js/main.be63e16f.js",
+    "main.css": "/static/css/main.90515a2a.css",
+    "main.js": "/static/js/main.38ce9c08.js",
     "static/media/propic.jpg": "/static/media/propic.fabf641c943736b786e8.jpg",
     "static/media/reddit1.png": "/static/media/reddit1.af5db663e23053c3f4b6.png",
     "static/media/housetown.jpg": "/static/media/housetown.5896933706e5b905c4cc.jpg",
@@ -15,11 +15,11 @@
     "static/media/res4.PNG": "/static/media/res4.7056253fdcbd61622c54.PNG",
     "static/media/note1.png": "/static/media/note1.f5367ca5eac54eb07f9d.png",
     "index.html": "/index.html",
-    "main.fc96f7aa.css.map": "/static/css/main.fc96f7aa.css.map",
-    "main.be63e16f.js.map": "/static/js/main.be63e16f.js.map"
+    "main.90515a2a.css.map": "/static/css/main.90515a2a.css.map",
+    "main.38ce9c08.js.map": "/static/js/main.38ce9c08.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc96f7aa.css",
-    "static/js/main.be63e16f.js"
+    "static/css/main.90515a2a.css",
+    "static/js/main.38ce9c08.js"
   ]
 }
