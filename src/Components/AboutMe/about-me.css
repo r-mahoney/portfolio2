@@ -1,0 +1,67 @@
+.slides {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.slides > div {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 300px;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    justify-content: center;
+}
+
+.slider {
+    text-align: center;
+    overflow: hidden;
+}
+
+.slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+}
+.slider > a:active {
+    top: 1px;
+}
+
+.slider > a:focus {
+    background: rgba(0, 151, 19, 0.5);
+}
+
+.slides::-webkit-scrollbar,
+.aboutMes::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb,
+.aboutMes::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track,
+.aboutMes::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    .slides::-webkit-scrollbar,
+    .aboutMes::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+}
