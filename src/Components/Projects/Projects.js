@@ -31,8 +31,13 @@ function Projects() {
         ) {
             setTabIndex(1);
         }
-        if (scrollPosition > projectsHeight * 2) {
+        if (
+            scrollPosition > projectsHeight * 2 &&
+            scrollPosition <= projectsHeight * 3
+        ) {
             setTabIndex(2);
+        } if(scrollPosition > projectsHeight * 3) {
+            setTabIndex(3)
         }
     }, [projectsHeight, scrollPosition]);
 

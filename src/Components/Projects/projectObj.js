@@ -8,16 +8,35 @@ import res1 from "../../images/res1.PNG";
 import res2 from "../../images/res2.PNG";
 import res3 from "../../images/res3.PNG";
 import res4 from "../../images/res4.PNG";
+import fan1 from "../../images/fan1.PNG";
+import fan2 from "../../images/fan2.PNG";
+import fan3 from "../../images/fan3.PNG";
 import { IoLogoVercel } from "react-icons/io5";
 import { SiRender } from "react-icons/si";
 
 export const projects = [
     {
+        name: "Fandango Clone",
+        githubLink: "https://github.com/r-mahoney/FandangClone",
+        liveLink: "https://fandang-clone.vercel.app/movies",
+        liveIcon: IoLogoVercel,
+        summary: `A clone of the popular movie website Fandango. 
+        The project involved using the T3 Stack, Tailwind, TypeScript, and Next.js as 
+        the front-end framework, Prisma for data management, PostgreSQL as the database, 
+        tRPC for API communication, and a Python script to web scrape movie data from 
+        Fandango's website in order to seed the database with accurate information.
+
+        The application allows users to search and browse through movies, view their details 
+        such as ratings, reviews, and showtimes at nearby theaters. Users can also add 
+        individual comments to and ratings to movies to be displayed to other users.`,
+        images: [fan1, fan2, fan3],
+    },
+    {
         name: "Reddit Clone",
         githubLink: "https://github.com/r-mahoney/RedditClone",
         liveLink: "https://reddit-clone-ten-flax.vercel.app/",
         liveIcon: IoLogoVercel,
-        summary: `A clone of the popular social media App reddit. 
+        summary: `A clone of the popular social media app reddit. 
             Current functionality allows a user to create and delete posts and comments as well as vote on posts and comments. 
             State managament was done using Recoil. App was written in Typescript using Next.js and React. 
             Styling using ChakraUI. Firebase was used for user authentication allowing for user sign up as well as log in. 
